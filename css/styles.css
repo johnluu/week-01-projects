@@ -1,1 +1,64 @@
+#contact_us {
 
+  background-color:lightblue;
+}
+
+.banner{
+	background-image:url(../img/milkbg.jpg);
+	height: 400px;
+	width:100%;
+	background-position:center;
+	position:relative;
+	background-repeat:no-repeat;
+
+}
+
+
+.banner_text{
+	color:white;
+	background-color: rgba(0,0,0,0.3);
+	position:absolute;
+	margin:auto;
+	width: 50%;
+	height: 50%;
+	top:25%;
+	left:25%;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:3%;
+
+}
+
+#about_us{
+
+	background-color:lightgrey;
+
+
+}
+#about_us_img{
+	align-content:left;
+	width:200px;
+	height:200px;
+
+}
+
+.row{
+padding-bottom:25px;
+}
+
+@media only screen and (min-width:0px) and (max-width:1200px)
+{
+
+#cookie_text_right{
+text-align:left;
+}
+
+}
+
+@media only screen and (min-width:1200px)
+{
+#cookie_text_right{
+text-align:right;
+}
+
+}
